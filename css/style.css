@@ -469,6 +469,9 @@ margin-right: 5px;
     text-align: justify;
     color: var(--text-black-700);
 }
+.services .container{
+    padding-bottom: 40px;
+}
 .services .service-item{
     margin-bottom:30px ;
     flex: 0 0 33.33%;
@@ -506,4 +509,44 @@ margin-right: 5px;
 .services .service-item .service-item-inner:hover .icon .fas{
     font-size: 25px;
     color: #ffffff;
+}
+.services .service-item .service-item-inner h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+
+
+}
+.services .service-item .service-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+
+}
+.portfoilo .container{
+    padding-bottom: 40px;
+
+}
+.portfoilo .portfoilo-heading{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.portfoilo .portfoilo-heading h2{
+    color: var(--text-black-900);
+    font-weight: 500;
+
+}
+.portfoilo .portfoilo-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+
+}
+.portfoilo .portfoilo-item-inner{
+    border:  6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
 }
